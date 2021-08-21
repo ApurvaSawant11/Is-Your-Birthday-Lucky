@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+:root {
+  --pink: #fe1493;
+  --medium-blue: #005f81;
+  --light-blue: #00b7cc;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+h1 {
+  padding: 2rem;
+  font-size: 3rem;
+}
+#click {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.3rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+#formSection {
+  width: 100%;
+  margin: auto;
+  max-width: 500px;
+}
+
+#bannerImg {
+  max-height: 650px;
+}
+.banner {
+  position: relative;
+}
+
+#notice {
+  padding: 0.8rem 1.4rem;
+  margin: 0.5rem auto;
+  background-color: #faefff;
+  width: fit-content;
+  color: red;
+  box-shadow: 0 0 10px #6b7280;
+}
+
+#about {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+form {
+  display: block;
+  padding: 2rem;
+  background-color: #d1fae5d8;
+  box-shadow: 0 0 10px #6b7280;
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+button {
+  padding: 0.5rem 1rem;
+  margin: 1.5rem auto;
+  border: unset;
+  box-shadow: 0 0 8px #6b7280;
+}
+
+input {
+  display: block;
+  width: 50%;
+  margin: 1.5rem auto;
+  outline-color: #fe1493;
+  outline-width: thick;
+}
+
+button {
+  margin: 1rem 0;
+  background: #fe1493;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.output {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+footer {
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #fe1493;
+}
+
+p {
+  padding: 0.5em;
+}
+
+li {
+  display: inline;
+  padding: 2em;
+  list-style: none;
+}
